@@ -4,15 +4,14 @@
 			<meta charset="utf-8"/>
 			<title>Noticias</title>
 		</head>
-	<body>	
-		
+	<body>
+
 		<h1>Noticias</h1>
 
 		<table>
 			<tr>
 				<td>ID</td>
 				<td>Titulo</td>
-				<td>Noticias</td>
 			</tr>
 
 			<% for(var i=0; i<noticias.length; i++){ %>
@@ -20,7 +19,6 @@
 			<tr>
 				<td><%= noticias[i].id_noticia %></td>
 				<td><%= noticias[i].titulo %></td>
-				<td><%= noticias[i].noticia %></td>
 			</tr>
 			<% } %>
 		</table>
